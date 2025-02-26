@@ -1,0 +1,13 @@
+<div class="w-full">
+  <h1 class="text-center font-bold text-[30px] ml-[20rem]">HTTP CALL TEST</h1>
+  <ul class="flex justify-center flex-wrap gap-4">
+    <li
+      class="bg-red-500 p-4 mb-4 rounded text-white w-[20rem] hover:8-4 hover:bg-red-600 flex flex-col text-center"
+      *ngFor="let post of data"
+    >
+      <h2>{{ post.id }}</h2>
+      <p>{{ post.title }}</p>
+      <p>{{ post.body }}</p>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,12 @@
+<h2>Angular Forms</h2>
+<form>
+  <label>Enter your name:</label>
+  <input
+    class="border-1 pr-2 ml-2 rounded"
+    type="text"
+    placeholder="Name"
+    [(ngModel)]="test"
+    name="name"
+  />
+  <p>Your name: {{ test }}</p>
+</form>
